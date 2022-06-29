@@ -1,0 +1,76 @@
+.itemImg{
+    width: 180px;
+    height: 270px;
+    transition: all 300ms ease;
+}
+
+.itemImg:hover{
+    transform: scale(1.1);
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Update: Removed the Flex property - IE FIX */
+
+}
+
+h1{
+    color: white;
+}
+
+
+:root {
+    --swiper-theme-color: #fff;
+}
+
+.netflix-slider .swiper-wrapper {
+    padding: 20px 0;
+}
+
+.netflix-slider .swiper-slide {
+    -webkit-transition: 250ms all;
+    transition: 250ms all;
+}
+
+.netflix-slider .swiper-slide:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.netflix-slider .swiper-slide:first-child:hover {
+    margin: 0 40px;
+}
+
+.netflix-slider .swiper-slide:last-child:hover {
+    margin: 0 -40px;
+}
+
+.rowContainer{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
+
+
+@media screen and (min-width: 320px) {
+    .swiper-container {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .swiper-container {
+        width: 460px;
+    }
+}

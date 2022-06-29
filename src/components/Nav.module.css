@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+.logo{
+    width: 113px;
+    margin-left: 15px;
+
+}
+
+.profile{
+    width: 53px;
+    margin-right: 35px;
+}
+
+nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+
+
+
+
+
